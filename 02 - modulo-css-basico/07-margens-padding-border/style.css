@@ -1,0 +1,28 @@
+    /* forma colocando cada lateral separada
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px; */
+
+    /*  */
+    /* border-style: solid;
+    border-width: 20px;
+    border-top-color: green;
+    border-left-color: blueviolet;
+    border-bottom-color: orange;
+    border-right-color: aqua; */
+    
+p{
+
+    margin: 30px 15px;
+    padding: 100px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+}
+h1{
+    border-style: solid;
+    border-width: 20px;
+    border-color: green blueviolet orange aqua;
+}

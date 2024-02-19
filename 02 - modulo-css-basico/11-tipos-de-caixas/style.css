@@ -1,0 +1,5 @@
+span{
+    color: orange;
+    /* span ja vem por padrao como display inline ( em linha ) para mudar seria colocar em display block
+     display: block; */
+}
