@@ -1,0 +1,33 @@
+/* VW = referente ao viewport
+   % = referente ao elemento pai
+   Nao é preferivel utilizar o VW / VH para font-size 
+*/
+/* body{
+    margin: 0;
+    width: 300px;
+}
+.primeiro-elemento{
+    width: 100vw;
+    background-color: aqua;
+}
+.segundo-elemento{
+    width: 100%;
+    background-color: blueviolet;
+} */
+body{
+    margin: 0;
+    /* overflow: hidden; */
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.primeira-secao{
+    background-color: red;
+}
+.segunda-secao{
+    background-color: black;
+}
+.terceira-secao{
+    background-color: blue;
+}
