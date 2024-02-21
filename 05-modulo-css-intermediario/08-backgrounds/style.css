@@ -1,0 +1,39 @@
+p{
+    color: coral;
+    font-size: 24px;   
+    font-weight: bold;
+}
+
+.bg{
+    background-color: lightgreen;
+    background-image: url(./img/gandalf_and_the_lonely_mountain-wallpaper-1680x1050.jpg);
+}
+.bg-image{
+    width: 1680px;
+    height: 1050px;
+}
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 1900px;
+}
+.bg-size-cover{
+    background-size: cover;
+    height: 1900px;
+}
+.bg .bg-fixed{
+    background-attachment: fixed;
+    height: 1900px;
+}
+.bg .bg-position{
+    /* obtem 2 valores, sem valor ele assumi o center */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+/* versão encurtada */
+/* .bg-position{
+    height:1900px;
+
+    background: #000 url('/08-backgrounds/img/gandalf_and_the_lonely_mountain-wallpaper-1680x1050.jpg')
+    no-repeat right top;
+} */
