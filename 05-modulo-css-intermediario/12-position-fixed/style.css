@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 1500px;
+    padding-top: 67px;
+    /* foi feito o somatorio com conteudo, padd e marging */
+}
+
+header{
+    font-size: 24px;
+    /* Ele permanece fixada na tela mesmo quando usa o scroll */
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+}
