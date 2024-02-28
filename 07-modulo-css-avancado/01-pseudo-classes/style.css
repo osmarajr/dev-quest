@@ -1,0 +1,21 @@
+p:first-child{
+    color: aquamarine;
+}
+p:last-child{
+    color: blueviolet;
+}
+p:not(.padrao){
+    color: yellow;
+}
+/* elementos filhos */
+p:nth-child(){
+
+}
+/* estlizar a cada 2 termos */
+li:nth-child(2n){
+    color: red;
+}
+
+li:nth-last-child(1){
+    color: red;
+}

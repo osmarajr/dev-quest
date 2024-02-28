@@ -1,0 +1,41 @@
+/* seletor::pseudo-elemento{
+
+} */
+p::first-letter{
+    color: coral;
+}
+/* Não funciona em elemento do tipo inline */
+.paragrafo::first-line{
+    color: blueviolet;
+}
+
+.first-line::first-line{
+    color: orange;
+}
+.first-letter::first-letter{
+    color: red;
+}
+
+li::marker{
+    color: red;
+    font-size: 30px;
+}
+
+h2::before{
+    content: url(logo.jpg);
+}
+
+h2::before{
+    content: "";
+    background: url(logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
+h2::after{
+    content: "";
+    background: url(logo.jpg) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
