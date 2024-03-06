@@ -1,0 +1,24 @@
+/* ja vem como padrão, no inicio do container*/
+.flex-start{
+    justify-content: flex-start;
+}
+/* elemento irá para o final */
+.flex-end{
+    justify-content: flex-end;
+}
+/* elemento no centro */
+.center{
+    justify-content: center;
+}
+/* elementos distribuidos igualmente mas espaço nas extremidades */
+.space-between{
+    justify-content: space-between;
+}
+/* elementos distribuidos com o dobro de espaço */
+.space-around{
+    justify-content: space-around;
+}
+/* elementos distribuidos igualmente */
+.space-evenly{
+    justify-content: space-evenly;
+}
