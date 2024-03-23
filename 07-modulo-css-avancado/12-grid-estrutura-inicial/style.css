@@ -7,8 +7,16 @@
 
 .container{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 150px 50px;
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: repeat(2, auto); */
+    /* grid-template-rows: 150px 50px 10px 50px; */
+    /* grid-template-rows: repeat(1,150px); */
 
     /* display: inline-grid; acompanha o tamanho do maior elemento*/
+    grid-template: 150px / auto auto;
+
+    /* grid-gap: 1px; */
+    /* grid-column-gap: 10px;
+    grid-row-gap: 50px; */
+    grid-gap: 20px 10px;
 }
