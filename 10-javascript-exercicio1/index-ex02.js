@@ -17,3 +17,11 @@ dizendo "O boleto está pago";
 4 - Se o boleto não estiver pago apresente uma
 mensagem dizendo "O boleto não está pago";
 */
+
+let boletoPago = false;
+
+if (boletoPago){
+    alert('O boleto está pago')
+}else{
+    alert('O boleto não está pago')
+}
