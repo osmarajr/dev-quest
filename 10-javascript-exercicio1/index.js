@@ -6,5 +6,10 @@
 // Obs: pra apresentar a mensagem de boas vindas pode usar
 // o alert também.
 
+// Objetivo: apresente a mensagem, "Seja bem vindo(a),
+// Fulano!"
+
 let nomeUsuario = prompt('Informe seu nome: ');
 
+
+alert('Seja bem vindo(a), '+ nomeUsuario +' !');
